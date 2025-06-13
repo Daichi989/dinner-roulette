@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body
-        className={fontNoto_Sans_JP.variable}>
+        className={`${fontNoto_Sans_JP.variable} overscroll-none`}>
         {children}
       </body>
     </html>

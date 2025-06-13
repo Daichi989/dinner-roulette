@@ -5,12 +5,12 @@ import { buttonVariants } from "@/components/ui/button";
 export default function Page() {
   return (
     <>
-      <section className="pt-6 md:pt-10 lg:py-32 pb-8 md:pb-12 bg-yellow-200">
-        <div className="flex flex-col items-center gap-4">
+      <section className="pt-6 md:pt-10 lg:py-32 pb-8 md:pb-12 min-h-screen">
+        <div className="flex flex-col items-center gap-4 mt-16">
             <h1 className="text-3xl font-bold sm:text-5xl md:text-6xl lg:text-7xl">晩ごはんどうする？</h1>
             <p className="text-muted-foreground">今日の晩ごはんはこれで決まり！</p>
             <div className="flex gap-4">
-                <Link href="/auth/signup" className={cn(buttonVariants({ size: "lg" }))}>
+                <Link href="/auth/signup" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
                     はじめる
                 </Link>
             </div>
