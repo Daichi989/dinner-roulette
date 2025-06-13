@@ -1,7 +1,7 @@
 import { SiteConfig } from "@/types"
 
 export const siteConfig : SiteConfig= {
-    name: "晩ごはんどうする？",
+    name: "DinnerRoulette",
     description: "晩御飯を決めるためのアプリです",
     url: "https://localhost:3000",
     ogImage: "",
