@@ -3,6 +3,7 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 import MainNav from "@/components/main-nav";
 import { marketingConfig } from "@/config/marketing";
+import SiteFooter from "@/components/site-footer";
 
 export default function MarketingLayout({
   children,
@@ -15,8 +16,8 @@ export default function MarketingLayout({
         <div className="h-16 px-4 flex items-center justify-between">
           <MainNav items={marketingConfig.mainNav} />
           <nav className="flex items-center gap-4">
-            <Link href={"/auth/login"} className={cn(buttonVariants({variant:"secondary", size: "sm"}),"px-4")} >ログイン</Link>
-            <Link href={"/auth/signup"} className={cn(buttonVariants({size: "sm"}),"px-4 bg-orange-400")} >＋レシピを書く</Link>
+            <Link href={"/login"} className={cn(buttonVariants({variant:"secondary", size: "sm"}),"px-4")} >ログイン</Link>
+            <Link href={"/register"} className={cn(buttonVariants({size: "sm"}),"px-4 bg-orange-400")} >＋レシピを書く</Link>
           </nav>
         </div>
       </header>
@@ -24,6 +25,7 @@ export default function MarketingLayout({
       <main className="">
         {children}
       </main>
+      <SiteFooter />
     </div>
   )
 }

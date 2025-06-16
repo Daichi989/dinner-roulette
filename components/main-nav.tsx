@@ -1,6 +1,7 @@
 "use client";
 
 import MobileNav from "@/components/mobile-nav";
+import { siteConfig } from "@/config/site";
 import { NavItem } from "@/types";
 import Link from "next/link";
 import { useState } from "react";
@@ -18,7 +19,7 @@ const[showMobileMenu, setShowMobileMenu] = useState<boolean>(false)
     <div className="flex items-center md:gap-10 px-10">
         <Link href="/" className="hidden md:flex items-center space-x-2">
             <span className="font-bold">
-                Dinner roulette
+                {siteConfig.name}
             </span>
         </Link>
         <nav className="md:flex gap-4 hidden">
