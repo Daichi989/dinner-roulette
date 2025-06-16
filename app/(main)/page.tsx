@@ -7,10 +7,10 @@ export default function Page() {
     <>
       <section className="pt-6 md:pt-10 lg:py-32 pb-8 md:pb-12 min-h-screen">
         <div className="flex flex-col items-center gap-4 mt-16">
-            <img src="夜ご飯.png" className="md:w-1/2"/>
-            <p className="text-muted-foreground">今日はこれで決まり！</p>
+            <img src="夜ご飯.png" className="md:w-1/2 animate-in fade-in-0 slide-in-from-top-8 "/>
+            <p className="text-muted-foreground">そんな時はルーレットで決めちゃおう！</p>
             <div className="flex gap-4">
-                <Link href="/auth/signup" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
+                <Link href="/register" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
                     はじめる
                 </Link>
             </div>
@@ -18,12 +18,6 @@ export default function Page() {
       </section>
 
       <section></section>
-      
-      <section className="flex flex-col items-center bg-yellow-200">
-        <p className="text-muted-foreground">developed by Daichi</p>
-        <img src="line_vegetable.png" className=""/>
-      </section>
-    
     </>
   );
 }

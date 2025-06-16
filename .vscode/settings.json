@@ -3,5 +3,6 @@
         "Daichi",
         "setshow",
         "shadcn"
-    ]
+    ],
+    "editor.tabSize": 2
 }
