@@ -16,7 +16,7 @@ export default function MainNav({items}:MainNavProps){
 const[showMobileMenu, setShowMobileMenu] = useState<boolean>(false)
 
   return (
-    <div className="flex items-center md:gap-10 px-10">
+    <div className="flex items-center md:gap-10 px-5">
         <Link href="/" className="hidden md:flex items-center space-x-2">
             <img src="icon.png" />
             <span className="font-bold">
