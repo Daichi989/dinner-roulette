@@ -22,7 +22,7 @@ export default function MarketingLayout({
         </div>
       </header>
 
-      <main className="">
+      <main>
         {children}
       </main>
       <SiteFooter />
