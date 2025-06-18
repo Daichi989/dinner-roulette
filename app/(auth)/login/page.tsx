@@ -1,4 +1,3 @@
-import SiteFooter from "@/components/site-footer";
 import UserAuthForm from "@/components/user-auth-form";
 import { siteConfig } from "@/config/site";
 
