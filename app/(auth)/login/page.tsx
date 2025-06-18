@@ -1,5 +1,4 @@
 import UserAuthForm from "@/components/user-auth-form";
-import { siteConfig } from "@/config/site";
 
 export default function Login() {
   return (
@@ -9,7 +8,7 @@ export default function Login() {
           <div className="flex items-center justify-center gap-2 pb-4">
           <img src="icon.png" />
                     <span className="font-bold text-xl">
-                        {siteConfig.name}
+                        DinnerRoulette
                     </span>
           </div>
           <h1 className="text-2xl font-semibold tracking-tight">
