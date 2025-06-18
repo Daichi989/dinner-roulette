@@ -1,26 +1,24 @@
+import SiteFooter from "@/components/site-footer";
 import UserAuthForm from "@/components/user-auth-form";
-import Link from "next/link";
+import { siteConfig } from "@/config/site";
 
 export default function Login() {
   return (
-    <div className="flex min-h-screen items-center justify-center">
+    <div className="flex flex-col min-h-screen items-center justify-center bg-yellow-200">
       <div className="mx-auto w-full max-w-sm flex flex-col justify-center space-y-6">
         <div className="text-center space-y-2">
+          <div className="flex items-center justify-center gap-2 pb-4">
+          <img src="icon.png" />
+                    <span className="font-bold text-xl">
+                        {siteConfig.name}
+                    </span>
+          </div>
           <h1 className="text-2xl font-semibold tracking-tight">
-            Welcome Back
+            新規登録またはログイン
           </h1>
-          <p className="text-sm text-muted-foreground">
-            メールアドレスを入力してログインできます。
-          </p>
         </div>
 
         <UserAuthForm />
-
-        <p className="text-muted-foreground px-8 text-center text-sm">
-          <Link href={"/register"} className="underline underline-offset-4">
-            アカウントを持っていませんか？
-          </Link>
-        </p>
       </div>
     </div>
   );
