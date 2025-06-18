@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils"
 import { signIn } from "next-auth/react"
 import { useState } from "react"
 import * as Icon from "lucide-react"
-import { siteConfig } from "@/config/site"
 
 export default function UserAuthForm(){
 const [isGithubLoading, setIsGithubLoading] = useState<boolean>(false) 
