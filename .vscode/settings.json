@@ -3,7 +3,9 @@
         "Daichi",
         "nabe",
         "setshow",
-        "shadcn"
+        "shadcn",
+        "sonner",
+        "turbopack"
     ],
     "editor.tabSize": 2
 }
