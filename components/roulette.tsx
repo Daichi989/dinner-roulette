@@ -5,7 +5,7 @@ import { Plus, Edit3, Trash2, Play } from 'lucide-react';
 
 const CookingRoulette = () => {
   const [dishes, setDishes] = useState([
-    '唐揚げ', 'カレーライス', 'ラーメン', 'パスタ', 'オムライス', '焼き肉'
+    '親子丼', 'カレーライス', '鶏そば', 'きのこパスタ', 'オムライス',"釜玉うどん"
   ]);
   const [newDish, setNewDish] = useState('');
   const [editingIndex, setEditingIndex] = useState(-1);
@@ -108,6 +108,7 @@ const CookingRoulette = () => {
 
   return (
     <div className="min-h-screen bg-yellow-200 p-4">
+      
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold text-center mb-8 text-orange-800">
           🍽️ 料理ルーレット
