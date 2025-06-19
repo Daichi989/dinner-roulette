@@ -5,6 +5,7 @@
         "setshow",
         "shadcn",
         "sonner",
+        "supabase",
         "turbopack"
     ],
     "editor.tabSize": 2
