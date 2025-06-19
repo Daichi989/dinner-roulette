@@ -17,8 +17,8 @@ const[showMobileMenu, setShowMobileMenu] = useState<boolean>(false)
 
   return (
     <div className="flex items-center md:gap-10 px-5">
-        <Link href="/" className="hidden md:flex items-center space-x-2">
-            <img src="icon.png" />
+        <Link href="/" className="hidden md:flex items-center space-x-2 ">
+            <img src="nabe.png" alt="アイコン"/>
             <span className="font-bold">
                 {siteConfig.name}
             </span>
