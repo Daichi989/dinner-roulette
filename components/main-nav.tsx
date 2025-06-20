@@ -24,15 +24,15 @@ const[showMobileMenu, setShowMobileMenu] = useState<boolean>(false)
             </span>
         </Link>
         <nav className="md:flex gap-4 hidden">
-            {items?.map((item,index)=>(
+            {/* {items?.map((item,index)=>(
                 <Link 
                 key={index}
                 href={item.href} 
                 className="text-lg sm:text-sm font-medium hover:text-foreground/50">{item.title}</Link>
-            ))}
+            ))} */}
         </nav>
         <div>
-          <button className="md:hidden flex items-center gap-2" onClick={()=>setShowMobileMenu(!showMobileMenu)}>
+          <button className="md:hidden flex items-center gap-2 cursor-pointer" onClick={()=>setShowMobileMenu(!showMobileMenu)}>
               <img src="nabe.png" />
               <span>メニュー</span>
           </button>
