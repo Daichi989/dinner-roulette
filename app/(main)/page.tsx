@@ -20,15 +20,24 @@ export default function Page() {
         sizes="(max-width: 768px) 100vw, 50vw"
       />
     </div>
-    <p className="text-muted-foreground">そんな時はルーレットで決めちゃおう！</p>
+    <p className="text-muted-foreground">困ったらルーレットで決めちゃおう！</p>
     <div className="flex gap-4">
       <Link href="/roulette" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
         はじめる
       </Link>
     </div>
+    <p className="text-4xl font-bold pt-10">こんな時ありませんか？</p>
+    <img src="DinnerRouletteまんが.png" 
+       alt="まんが" 
+       className="w-200 "
+       />
+       <Link href="/roulette" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
+        はじめる
+      </Link>
   </div>
+ 
 </section>
-      
+    
     </>
   );
 }
