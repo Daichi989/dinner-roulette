@@ -22,7 +22,7 @@ export default function Page() {
     </div>
     <p className="text-muted-foreground">困ったらルーレットで決めちゃおう！</p>
     <div className="flex gap-4">
-      <Link href="/roulette" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
+      <Link href="/login" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
         はじめる
       </Link>
     </div>
@@ -31,8 +31,8 @@ export default function Page() {
        alt="まんが" 
        className="w-200 "
        />
-       <Link href="/roulette" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
-        はじめる
+       <Link href="/login" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
+        夜ご飯を決める！
       </Link>
   </div>
  
