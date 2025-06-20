@@ -22,7 +22,7 @@ export default function Page() {
     </div>
     <p className="text-muted-foreground">そんな時はルーレットで決めちゃおう！</p>
     <div className="flex gap-4">
-      <Link href="/register" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
+      <Link href="/roulette" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
         はじめる
       </Link>
     </div>
