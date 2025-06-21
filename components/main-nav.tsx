@@ -17,7 +17,7 @@ const[showMobileMenu, setShowMobileMenu] = useState<boolean>(false)
 
   return (
     <div className="flex items-center md:gap-10 px-5">
-        <Link href="/" className="hidden md:flex items-center space-x-2 ">
+        <Link href="/" className=" flex items-center space-x-2 ">
             <img src="nabe.png" alt="アイコン"/>
             <span className="font-bold">
                 {siteConfig.name}
@@ -31,12 +31,12 @@ const[showMobileMenu, setShowMobileMenu] = useState<boolean>(false)
                 className="text-lg sm:text-sm font-medium hover:text-foreground/50">{item.title}</Link>
             ))} */}
         </nav>
-        <div>
+        {/* <div>
           <button className="md:hidden flex items-center gap-2 cursor-pointer" onClick={()=>setShowMobileMenu(!showMobileMenu)}>
               <img src="nabe.png" />
               <span>メニュー</span>
           </button>
-        </div>
+        </div> */}
         {showMobileMenu && <MobileNav items={items} />}
     </div>
   )
