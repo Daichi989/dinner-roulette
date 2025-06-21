@@ -15,7 +15,6 @@ export default function Login() {
             新規登録またはログイン
           </h1>
         </div>
-
         <UserAuthForm />
       </div>
     </div>

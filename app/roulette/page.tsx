@@ -2,6 +2,7 @@
 
 import MainNav from "@/components/main-nav";
 import CookingRoulette from "@/components/roulette";
+import SiteFooter from "@/components/site-footer";
 import { buttonVariants } from "@/components/ui/button";
 import { marketingConfig } from "@/config/marketing";
 import { cn } from "@/lib/utils";
@@ -23,6 +24,7 @@ export default function Page(){
           </nav>
         </div>
     <CookingRoulette />
+    <SiteFooter/>
     </>
   )  
 }

@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils"
 import { signIn } from "next-auth/react"
 import { useState } from "react"
 import { Loader2 } from 'lucide-react';
+import Link from "next/link"
 
 export default function UserAuthForm(){
 const [isGithubLoading, setIsGithubLoading] = useState<boolean>(false) 
@@ -42,6 +43,7 @@ const [isGoogleLoading, setIsGoogleLoading] = useState<boolean>(false)
                   /></svg>}
          Googleで続ける    
         </button>
+        <Link href={"/"} className="flex items-center justify-center pt-5">ホームに戻る</Link>
     </div>
   )
 }
