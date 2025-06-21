@@ -1,6 +1,6 @@
 "use client";
 
-import MobileNav from "@/components/mobile-nav";
+// import MobileNav from "@/components/mobile-nav";
 import { siteConfig } from "@/config/site";
 import { NavItem } from "@/types";
 import Link from "next/link";
