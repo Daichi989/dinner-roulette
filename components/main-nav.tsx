@@ -37,7 +37,7 @@ const[showMobileMenu, setShowMobileMenu] = useState<boolean>(false)
               <span>メニュー</span>
           </button>
         </div> */}
-        {showMobileMenu && <MobileNav items={items} />}
+        {/* {showMobileMenu && <MobileNav items={items} />} */}
     </div>
   )
 }
