@@ -12,8 +12,8 @@ export default function MarketingLayout({
 }) {
   return (
     <div className="bg-yellow-200">
-      <header className="fixed top-0 left-0 w-full z-40 bg-yellow-200 ">
-        <div className="h-16 px-4 flex items-center justify-between">
+      <header className="fixed top-0 left-0 w-full z-40 bg-yellow-200 px-4 md:px-6">
+        <div className="h-16 flex items-center justify-between">
           <MainNav items={marketingConfig.mainNav} />
           <nav className="flex items-center gap-4">
             <Link href={"/login"} className={cn(buttonVariants({variant:"secondary", size: "sm"}),"px-4")} >ログイン</Link>

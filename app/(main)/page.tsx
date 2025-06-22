@@ -26,7 +26,7 @@ export default function Page() {
         はじめる
       </Link>
     </div>
-    <p className="text-4xl font-bold pt-10">こんな時ありませんか？</p>
+    <p className="md;text-4xl text-3xl font-bold pt-10">こんな時ありませんか？</p>
     <img src="DinnerRouletteまんが.png" 
        alt="まんが" 
        className="w-200 "
