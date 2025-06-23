@@ -5,7 +5,7 @@ import { Plus, Edit3, Trash2, Play } from 'lucide-react';
 
 const CookingRoulette = () => {
   const [dishes, setDishes] = useState([
-    '親子丼', 'カレーライス', '鶏そば', 'きのこパスタ', 'お弁当買う',"釜玉うどん"
+    '親子丼', '鶏そば', 'きのこパスタ', 'お弁当買う',"釜玉うどん"
   ]);
   const [newDish, setNewDish] = useState('');
   const [editingIndex, setEditingIndex] = useState(-1);
