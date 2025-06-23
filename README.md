@@ -32,16 +32,13 @@ Auth.js を使って、以下のプロバイダーでログインできます：
 
 - 料理リストの追加、編集、削除
 <br>
-<br>
-<img src="public/list.png" width="300">
-<br>
+<img src="public/list.png" width="500">
 <br>
 - レシピルーレット（料理の候補をランダムに1つ表示）
 <br>
+<img src="public/roulette.png" width="500">
 <br>
-<img src="public/roulette.png" width="300">
-<br>
-<br>
+
 ## 🧑‍💻 今後の改良予定
 - Supabase等を使ったユーザーのプロフィール編集機能
 - レシピの詳細ページ
