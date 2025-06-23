@@ -1,8 +1,10 @@
 # Dinner Roulette 
 サービスURL:https://dinner-roulette.vercel.app
 <br>
+<br>
 <img src="public/main.gif" width="300">
 <img src="public/roulette.gif" width="300">
+<br>
 <br>
 「夜ご飯どうする？」の悩みを解決する、献立ルーレットアプリです。  
 毎日の献立会議にうんざりしている人のために、ランダムで料理を提案します！
@@ -23,14 +25,23 @@ Auth.js を使って、以下のプロバイダーでログインできます：
 - GitHub
 - Google
 
-<img src="public/login.gif" width="300">
+<img src="public/login.png" width="500">
 <br>
 
 ログイン後は、以下の機能が使えます：
 
 - 料理リストの追加、編集、削除
+<br>
+<br>
+<img src="public/list.png" width="300">
+<br>
+<br>
 - レシピルーレット（料理の候補をランダムに1つ表示）
-
+<br>
+<br>
+<img src="public/roulette.png" width="300">
+<br>
+<br>
 ## 🧑‍💻 今後の改良予定
 - Supabase等を使ったユーザーのプロフィール編集機能
 - レシピの詳細ページ
