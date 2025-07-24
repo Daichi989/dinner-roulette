@@ -27,10 +27,15 @@ export default function Page() {
       </Link>
     </div>
     <p className="md;text-4xl text-3xl font-bold pt-10">こんな時ありませんか？</p>
-    <img src="DinnerRouletteまんが.png" 
-       alt="まんが" 
-       className="w-200 "
-       />
+    <Image
+      src="/DinnerRouletteまんが.png"
+      alt="まんが"
+      width={400}
+      height={200}
+      className="w-200"
+      priority
+      sizes="(max-width: 768px) 100vw, 400px"
+    />
        <Link href="/login" className={cn(buttonVariants({ size: "lg" }),"bg-orange-400")}>
         夜ご飯を決める！
       </Link>
