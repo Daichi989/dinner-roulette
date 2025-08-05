@@ -122,7 +122,7 @@ const CookingRoulette = () => {
               type="text"
               value={newDish}
               onChange={(e) => setNewDish(e.target.value)}
-              onKeyPress={(e) => e.key === 'Enter' && addDish()}
+              onKeyDown={(e) => e.key === 'Enter' && addDish()}
               placeholder="料理名を入力..."
               className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange-500"
             />
@@ -148,7 +148,7 @@ const CookingRoulette = () => {
                       type="text"
                       value={editingText}
                       onChange={(e) => setEditingText(e.target.value)}
-                      onKeyPress={(e) => e.key === 'Enter' && finishEdit()}
+                      onKeyDown={(e) => e.key === 'Enter' && finishEdit()}
                       onBlur={finishEdit}
                       className="flex-1 px-2 py-1 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-orange-500"
                       autoFocus
